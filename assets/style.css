@@ -159,6 +159,9 @@ body {
   top: 1px;
 }
 .content .content-description .choose-print .content-description__section-list .content-description__section-list-item img {
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
   border-radius: 8px;
 }
 .content .content-description .choose-print .content-description__section-list .active-item {
@@ -228,11 +231,14 @@ body {
   justify-content: center;
   max-width: 364px;
   width: 100%;
+  height: 458px;
   grid-column: span 4;
   overflow: hidden;
 }
 .content .content-gallery .content-gallery__photo-main img {
+  width: 100%;
   height: 458px;
+  object-fit: cover;
 }
 .content .content-gallery .content-gallery__photo {
   display: flex;
@@ -257,7 +263,10 @@ body {
   top: 1px;
 }
 .content .content-gallery .content-gallery__photo img {
-  width: 67px;
+  width: 100%;
+  height: 67px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .footer {
