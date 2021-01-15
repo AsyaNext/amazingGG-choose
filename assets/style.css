@@ -91,24 +91,24 @@ body {
   justify-content: space-between;
 }
 .content .content-description .content-description__caption {
+  margin-bottom: 5px;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
 }
 .content .content-description .content-description__title {
-  margin-top: 5px;
+  margin-bottom: 10px;
   font-weight: 600;
   font-size: 64px;
   line-height: 100%;
 }
 .content .content-description .content-description__subtitle {
-  margin-top: 10px;
-  margin-bottom: 7px;
+  margin-bottom: 34px;
   font-size: 36px;
   line-height: 100%;
 }
 .content .content-description .content-description__section {
-  margin-top: 26px;
+  margin-bottom: 26px;
 }
 .content .content-description .content-description__section .content-description__section-list {
   margin-top: 16px;
@@ -142,6 +142,9 @@ body {
   color: #FFFFFF;
   background-color: #4C5EB4;
   box-shadow: 0 5px 32px #4C5EB4;
+}
+.content .content-description .choose-print {
+  margin-bottom: 66px;
 }
 .content .content-description .choose-print .content-description__section-list .content-description__section-list-item {
   margin-right: 20px;
@@ -182,7 +185,6 @@ body {
   background-position: center 9px;
 }
 .content .content-description .content-description__itog {
-  margin-top: 66px;
   display: flex;
   align-items: center;
 }
@@ -267,6 +269,9 @@ body {
   height: 67px;
   object-fit: cover;
   object-position: center top;
+}
+.content .content-gallery .active-item {
+  opacity: 1;
 }
 
 .footer {
